@@ -1,0 +1,571 @@
+* {
+    margin: 0 auto;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2457cf;
+    height: 50px; 
+    position: relative; /*fix sensitive case Position-->position*/
+}
+
+header{
+    box-shadow: 0 3px 5px #2c2b2b;
+}
+
+h1 {
+    width: 100%;
+    font-size: 25px; 
+    text-align: center;
+    color: #fff;
+    align-items: center;
+}
+/*new edit buger*/
+.hamburger img {
+    position: absolute;
+    left: 0px;
+    bottom: -17.5px;
+    height: 35px;
+}
+header .drop{
+    position: absolute;
+	left: 30px;
+}
+
+header .drop a.hamburger img {
+    font-size: 40px;
+	padding-top: 5px;
+	transition: .2s ease;
+}
+
+header .drop a.hamburger:hover img {
+    color: #fff;
+}
+
+nav.sub-menu {
+	width: 200px;
+	height: 200px;
+	background-color:#2457cf;
+	position: absolute;
+	left: -300px;
+	transition: .3s all;
+    z-index: 10; 
+}
+
+nav.sub-menu > a {
+    display: block;
+    padding: 5px;
+    margin: 15px 0 0px 20px;
+    color: #fff;
+}
+nav.sub-menu a:hover {
+    background-color: #bcb9b9;
+    color: black;
+    padding: 10px;
+}
+
+.sub-menu_show {
+	left: 0!important;
+}
+
+.top-logo img{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    height: 50px;
+}
+
+main {
+    width: 100%;
+    padding: 10px  100px;
+    box-sizing: border-box;
+}
+  
+h2 {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    text-align: left;
+    text-justify: inter-word;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cover {
+    position: relative;
+    align-items: center;
+}
+
+.cover img {
+    width:100%;
+    height: 30%;    
+}
+
+
+.exp {
+    position: absolute;
+    width: auto;
+    font-size: 25px;
+    font-weight: bold;
+    bottom: 30px;
+    color: #ffffff;
+    text-size-adjust: 80%;
+    padding: 20px;
+}
+
+table {
+    display:block;
+    text-align: left;
+    margin-left:auto;
+    margin-right:auto;
+    border-spacing: 30px 15px;
+    padding: 0 80px; 
+}
+
+#tour-img img{
+    width: 100%;
+    height: 250px;
+    align-items: center;
+}
+
+tr th {
+    text-align: left;
+   /* padding: 10px 0;*/
+}
+
+tr th a {
+    color: #000000;
+}
+
+tr th a:hover {
+    color: #2457cf;
+}
+
+tr td p {
+    align-items: center;
+    text-align: left;
+    /*padding: 5px 0;*/
+    font-size: 14px;
+}
+
+button{
+    margin:0;
+    Padding:0;
+    border:none;
+    border-color:#ffffff;
+} 
+
+.cta {
+    background-color: #2457cf;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#btn-order a:hover {
+   color:#000000;
+   background-color: #bcb9b9;
+}
+
+footer {
+    position: relative;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    background:#2457cf;
+    align-items: center;
+}
+
+.footer-info { 
+    position: absolute;
+    word-spacing: 2px;
+    color: #ffffff;
+}
+
+.footer-menu {
+    position: absolute;
+    right: 30px;
+    color:  #fff;
+    text-decoration: none;
+}
+
+.footer-menu a {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.footer-menu a:hover {
+    background-color: #bcb9b9;;
+    color: #000000;
+    padding: 10px;
+}
+
+/* assignment request*/
+ @media only screen and (max-width: 1200px) {
+    body{
+        width: 100%;
+        }
+
+    main {
+        width: 100%;
+        padding: 0;
+        }
+    
+    h2 {
+    /* width: 100%;
+       padding: 10px 10px 10px 30px; fix media querie */
+       width: 87vw;
+       padding: 10px -40px 10px 30px;
+       text-indent: 30px;       
+        }
+
+    .lead {
+        width: 88vw;
+        margin:0;
+        padding: 10px 20px 10px 30px;
+        }
+
+    .exp {
+        /*padding: 40px; fix media querie */
+        padding:20px;    
+        }
+
+    .container {
+        width: 100%; 
+        }
+    
+    #tour-img img{
+        width: 100%;
+        height: 180px;
+        }
+
+    h3 {
+        font-size: 95%;
+        }
+
+    tr td p {
+        font-size: 80%;
+        width:100%;
+        padding:0;
+        margin:0;
+        /*margin-left:-5px;*/
+        }
+    
+    .cta {
+        font-size: 80%;
+        }
+
+    .footer-info{
+        width:90vw;
+        }
+}
+/* assignment request*/
+ @media only screen and  (max-width: 800px) {
+    main {
+        width: 100%;
+        padding: 0;
+        }
+        
+    header {
+        max-width: none;
+        width: 100%;
+        }
+    
+    h1 {
+        font-size: 100%;
+        }
+
+    .container {
+        width: 100%;
+       }
+
+    h2 {
+        width: 100%;
+        /*padding: 10px 10px 10px 30px;*/
+        font-size: 80%;
+        }
+
+    .lead {
+        width: 88vw;
+        margin:0;
+       /*padding: 10px 40px 10px 40px;*/
+        }
+
+    h3 {
+        font-size: 80%;
+        }
+
+    p {
+        font-size: 80%;
+        }
+    /*h2,h3, p {
+            font-size: 80%;
+        }*/
+
+    .exp {
+        font-size: 80%;
+        }
+
+    .top-logo img{
+        width: auto;
+        }
+
+    .cover  {
+        width: 100%; 
+        }
+
+    .cover img { 
+        width:100;
+        height: 30%;  
+        }
+
+    .exp {
+        padding: 40px;
+        } 
+
+
+    table {
+        margin-left:auto;
+        margin-right:auto;
+        padding: 0 0;    
+        }
+
+    #tour-img img{
+        width: 100%;
+        height: 150px;
+        }
+
+    tr td p {
+        /*padding: 5px;*/
+        font-size: 10px;
+        }
+
+    .cta {
+        font-size: 10px;
+        }
+
+    footer {
+        width: auto;
+        }
+
+    .footer-menu {
+        font-size: 80%;
+        }
+}
+/* new media query*/
+@media only screen and (max-width: 550px) {
+    body{
+        width: 100%;
+        }
+        
+    main {
+        width: 100%;
+        padding: 0;
+        }
+    
+    h2 {
+    /* width: 100%;
+       padding: 10px 10px 10px 30px; fix media querie */
+       width: 80vw;
+       padding: 10px -40px 10px 30px;
+       text-indent: 30px;       
+    }
+
+    .lead {
+        width: 80vw;
+        margin:0;
+        padding: 10px 20px 10px 30px;
+        }
+
+    .exp {
+        /*padding: 40px; fix media querie */
+        padding:20px;    
+    }
+
+    .container {
+        width: 100%; 
+        }
+    
+    #tour-img img{
+        width: 100%;
+        height: 130px;
+        }
+
+    h3 {
+        font-size: 95%;
+        }
+
+    tr td p {
+        font-size: 80%;
+        width:100%;
+        padding:0;
+        margin:0;
+        /*margin-left:-5px;*/
+        }
+    
+    .cta {
+        font-size: 80%;
+        }
+
+    .footer-info{
+        width:90vw;
+        }
+}
+
+@media only screen and (max-width: 415px) {
+    body{
+        width: 100%;
+        }
+        
+    main {
+        width: 100%;
+        padding: 0;
+        }
+    
+    h2 {
+    /* width: 100%;
+       padding: 10px 10px 10px 30px; fix media querie */
+       width: 70vw;
+       padding: 10px -40px 10px 30px;
+       text-indent: 30px;       
+        }
+    .top-logo img{
+        width:10vw;
+        }
+    .lead {
+        width: 80vw;
+        margin:0;
+        padding: 10px 20px 10px 30px;
+        }
+
+    .exp {
+        /*padding: 40px; fix media querie */
+        padding:20px;    
+    }
+
+    .container {
+        width: 100%; 
+        }
+    
+    #tour-img img{
+        width: 100%;
+        height: 100px;
+        }
+
+    h3 {
+        font-size: 80%;
+        }
+
+    tr td p {
+        font-size: 70%;
+        width:100%;
+        padding:0;
+        margin:0;
+        /*margin-left:-5px;*/
+        }
+    
+    .cta {
+        font-size: 70%;
+        }
+
+    .footer-info{
+        width:30vw;
+        font-size: 70%;
+        }
+
+    .footer-menu{
+        font-size: 70%;
+       }
+
+    .footer-menu a {
+        margin-left: 10px;
+        margin-right: 0;
+        }
+}
+/*
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    h1 {
+        font-size: 100%;
+    }
+h2,h3, p {
+        font-size: 80%;
+    }
+.exp {
+        font-size: 80%;
+    }
+.top-logo img{
+        width: fit-content;
+    }
+header {
+        max-width: none;
+        width: auto;
+    }
+
+    .container {
+       
+         width: 100%; 
+         }
+
+table {
+    margin-left:0px;
+    width: 100vw;;
+    border-spacing: 5px 5px;
+    }
+
+#tour-img img{
+    width: 24.9vw;
+    height: 80px;
+}
+tr td p {
+    padding: 5px;
+    font-size: 10px;
+}
+
+
+.cta {
+font-size: 10px;
+}
+footer {
+    display: flex;
+        width: auto;
+    }
+.footer-menu {
+        font-size: auto;
+}
+.footer-menu ul{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 20px;
+}
+
+table {
+        width: 50%;
+        padding: 10px 10px;
+    }
+
+table tr th td {
+            width: auto;
+        font-size: 80%;
+    }
+}*/
