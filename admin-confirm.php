@@ -29,7 +29,7 @@ include_once('db-connect.php');
 		?>
 	</div>
 	<div class="discover">
-		<a href="all-adventures.php" class="discover-link">>>> Discover all adventuress</a>
+		<a href="all-adventures.php" class="discover-link">>>> Discover all adventures</a>
 	</div>
 
 	<div class="logout">
