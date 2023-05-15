@@ -17,6 +17,7 @@ include_once('db-connect.php');
 </head>
 <body>
     <?php include('header.php'); ?>
+	<div class="confirm">
 	<div>
 		<h2>Admin Confirm</h2>
 	</div>
@@ -35,7 +36,7 @@ include_once('db-connect.php');
 	<div class="logout">
 			<a href="logout.php"><button>Log out</button></a>
 	</div>
-
+	</div>
     <?php include('footer.php'); ?>
    
 </body>

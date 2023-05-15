@@ -1,73 +1,73 @@
-h2.ad-ad{
-  text-indent: 30px;;
+h2.ad-ad {
+  text-indent: 30px;
+}
+.add-adv {
+  height: 79vh;
 }
 .add-adv div {
   margin-bottom: 10px;
-  }
-  
-.add-adv label{
+}
+
+.add-adv label {
   display: inline-block;
   width: 100px;
   margin-left: 30px;
-  }
-  .add-adv label[for="summary"]{
-    vertical-align: top;
-    }
-  .add-adv input[type="text"]{
-    width: 297px;
-    height: 30px;
-  }
-  .add-adv input[type="date"] {
-    width: 300px;
-    height: 30px;
-  }
-  .add-adv textarea {
-    width: 300px;
-    height: 200px;
-    overflow: scroll;
-    resize: none;
-  }
-  input[type="submit"] {
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    margin-left: 135px;
-    border: none;
-    background-color: #2457cf;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #bcb9b9;
-    color: #000000;
-   
-  }
-  
- 
-  .error {
-    color: #e53935;
-    margin-top: 10px;
-  }
-  
-  /* Style for the logout link */
-  .logout {
-    position: absolute;
-    top: 60px;
-    right: 30px;
+}
+.add-adv label[for="summary"] {
+  vertical-align: top;
+}
+.add-adv input[type="text"] {
+  width: 297px;
+  height: 30px;
+}
+.add-adv input[type="date"] {
+  width: 300px;
+  height: 30px;
+}
+.add-adv textarea {
+  width: 300px;
+  height: 200px;
+  overflow: scroll;
+  resize: none;
+}
+input[type="submit"] {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 135px;
+  border: none;
+  background-color: #2457cf;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #bcb9b9;
+  color: #000000;
+}
+
+.error {
+  color: #e53935;
+  margin-top: 10px;
+}
+
+/* Style for the logout link */
+.logout {
+  position: absolute;
+  top: 60px;
+  right: 30px;
 }
 
 .logout button {
-    padding: 5px 5px;
-    background-color: #ffffff;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 5px 5px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .logout button:hover {
-    background-color: #2457cf;
-    color:  #ffffff;
+  background-color: #2457cf;
+  color: #ffffff;
 }
-  
