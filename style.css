@@ -1,571 +1,643 @@
 * {
-    margin: 0 auto;
-    font-family: Verdana, Tahoma, sans-serif;
+  margin: 0 auto;
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 body {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2457cf;
-    height: 50px; 
-    position: relative; /*fix sensitive case Position-->position*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2457cf;
+  height: 50px;
+  position: relative; /*fix sensitive case Position-->position*/
 }
 
-header{
-    box-shadow: 0 3px 5px #2c2b2b;
+header {
+  box-shadow: 0 3px 5px #2c2b2b;
 }
 
 h1 {
-    width: 100%;
-    font-size: 25px; 
-    text-align: center;
-    color: #fff;
-    align-items: center;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+  align-items: center;
 }
 /*new edit buger*/
 .hamburger img {
-    position: absolute;
-    left: 0px;
-    bottom: -17.5px;
-    height: 35px;
+  position: absolute;
+  left: 0px;
+  bottom: -17.5px;
+  height: 35px;
 }
-header .drop{
-    position: absolute;
-	left: 30px;
+header .drop {
+  position: absolute;
+  left: 30px;
 }
 
 header .drop a.hamburger img {
-    font-size: 40px;
-	padding-top: 5px;
-	transition: .2s ease;
+  font-size: 40px;
+  padding-top: 5px;
+  transition: 0.2s ease;
 }
 
 header .drop a.hamburger:hover img {
-    color: #fff;
+  color: #fff;
 }
 
 nav.sub-menu {
-	width: 200px;
-	height: 200px;
-	background-color:#2457cf;
-	position: absolute;
-	left: -300px;
-	transition: .3s all;
-    z-index: 10; 
+  width: 200px;
+  height: 200px;
+  background-color: #2457cf;
+  position: absolute;
+  left: -300px;
+  transition: 0.3s all;
+  z-index: 10;
 }
 
 nav.sub-menu > a {
-    display: block;
-    padding: 5px;
-    margin: 15px 0 0px 20px;
-    color: #fff;
+  display: block;
+  padding: 5px;
+  margin: 15px 0 0px 20px;
+  color: #fff;
 }
 nav.sub-menu a:hover {
-    background-color: #bcb9b9;
-    color: black;
-    padding: 10px;
+  background-color: #bcb9b9;
+  color: black;
+  padding: 10px;
 }
 
 .sub-menu_show {
-	left: 0!important;
+  left: 0 !important;
 }
 
-.top-logo img{
-    position: absolute;
-    right: 30px;
-    bottom: 0px;
-    height: 50px;
+.top-logo img {
+  position: absolute;
+  right: 30px;
+  bottom: 0px;
+  height: 50px;
 }
 
 main {
-    width: 100%;
-    padding: 10px  100px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px 100px;
+  box-sizing: border-box;
 }
-  
+
 h2 {
-    width: 100%;
-    margin: 20px 0 20px 0;
-    text-align: left;
-    text-justify: inter-word;
+  width: 100%;
+  margin: 20px 0 20px 0;
+  text-align: left;
+  text-justify: inter-word;
+  text-indent: 30px; /*new*/
+}
+h3 {
+  text-indent: 30px;
 }
 
 p {
-    text-align: justify;
-    text-justify: inter-word;
-    align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .cover {
-    position: relative;
-    align-items: center;
+  position: relative;
+  align-items: center;
 }
 
 .cover img {
-    width:100%;
-    height: 30%;    
+  width: 100%;
+  height: 30%;
 }
 
-
 .exp {
-    position: absolute;
-    width: auto;
-    font-size: 25px;
-    font-weight: bold;
-    bottom: 30px;
-    color: #ffffff;
-    text-size-adjust: 80%;
-    padding: 20px;
+  position: absolute;
+  width: auto;
+  font-size: 25px;
+  font-weight: bold;
+  bottom: 30px;
+  color: #ffffff;
+  text-size-adjust: 80%;
+  padding: 20px;
 }
 
 table {
-    display:block;
-    text-align: left;
-    margin-left:auto;
-    margin-right:auto;
-    border-spacing: 30px 15px;
-    padding: 0 80px; 
+  display: block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 30px 15px;
+  padding: 0 80px;
 }
 
-#tour-img img{
-    width: 100%;
-    height: 250px;
-    align-items: center;
+#tour-img img {
+  width: 100%;
+  height: 250px;
+  align-items: center;
 }
 
 tr th {
-    text-align: left;
-   /* padding: 10px 0;*/
+  text-align: left;
+  /* padding: 10px 0;*/
 }
 
 tr th a {
-    color: #000000;
+  color: #000000;
 }
 
 tr th a:hover {
-    color: #2457cf;
+  color: #2457cf;
 }
 
 tr td p {
-    align-items: center;
-    text-align: left;
-    /*padding: 5px 0;*/
-    font-size: 14px;
+  align-items: center;
+  text-align: left;
+  /*padding: 5px 0;*/
+  font-size: 14px;
 }
 
-button{
-    margin:0;
-    Padding:0;
-    border:none;
-    border-color:#ffffff;
-} 
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-color: #ffffff;
+}
 
 .cta {
-    background-color: #2457cf;
-    border: none;
-    color: #ffffff;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
+  background-color: #2457cf;
+  border: none;
+  color: #ffffff;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 #btn-order a:hover {
-   color:#000000;
-   background-color: #bcb9b9;
+  color: #000000;
+  background-color: #bcb9b9;
 }
 
 footer {
-    position: relative;
-    padding: 20px 30px 20px 30px;
-    display: flex;
-    background:#2457cf;
-    align-items: center;
+  position: relative;
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  background: #2457cf;
+  align-items: center;
 }
 
-.footer-info { 
-    position: absolute;
-    word-spacing: 2px;
-    color: #ffffff;
+.footer-info {
+  position: absolute;
+  word-spacing: 2px;
+  color: #ffffff;
 }
 
 .footer-menu {
-    position: absolute;
-    right: 30px;
-    color:  #fff;
-    text-decoration: none;
+  position: absolute;
+  right: 30px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer-menu a {
-    margin-left: 30px;
-    margin-right: 0;
+  margin-left: 30px;
+  margin-right: 0;
 }
 
 .footer-menu a:hover {
-    background-color: #bcb9b9;;
-    color: #000000;
-    padding: 10px;
+  background-color: #bcb9b9;
+  color: #000000;
+  padding: 10px;
 }
 
 /* assignment request*/
- @media only screen and (max-width: 1200px) {
-    body{
-        width: 100%;
-        }
+@media only screen and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
 
-    main {
-        width: 100%;
-        padding: 0;
-        }
-    
-    h2 {
-    /* width: 100%;
-       padding: 10px 10px 10px 30px; fix media querie */
-       width: 87vw;
-       padding: 10px -40px 10px 30px;
-       text-indent: 30px;       
-        }
+  main {
+    width: 100%;
+    padding: 0;
+  }
 
-    .lead {
-        width: 88vw;
-        margin:0;
-        padding: 10px 20px 10px 30px;
-        }
+  h2 {
+    width: 87vw;
+    padding: 10px -40px 10px 30px;
+    text-indent: 30px;
+  }
 
-    .exp {
-        /*padding: 40px; fix media querie */
-        padding:20px;    
-        }
+  .lead {
+    width: 88vw;
+    margin: 0;
+    padding: 10px 20px 10px 30px;
+  }
 
-    .container {
-        width: 100%; 
-        }
-    
-    #tour-img img{
-        width: 100%;
-        height: 180px;
-        }
+  .exp {
+    padding: 20px;
+  }
 
-    h3 {
-        font-size: 95%;
-        }
+  .container {
+    width: 100%;
+  }
 
-    tr td p {
-        font-size: 80%;
-        width:100%;
-        padding:0;
-        margin:0;
-        /*margin-left:-5px;*/
-        }
-    
-    .cta {
-        font-size: 80%;
-        }
+  #tour-img img {
+    width: 100%;
+    height: 180px;
+  }
 
-    .footer-info{
-        width:90vw;
-        }
+  h3 {
+    font-size: 95%;
+  }
+
+  tr td p {
+    font-size: 80%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cta {
+    font-size: 80%;
+  }
+
+  .form {
+    width: 80%;
+  }
+  .form select,
+  .form input[type="text"],
+  .form input[type="submit"] {
+    width: 80%;
+    font-size: 70%;
+  }
+
+  input[type="submit"] {
+    font-size: 80%;
+  }
+  .call {
+    font-size: 80%;
+  }
+  .admin {
+    height: 78.9vh;
+  }
+  h2.welad {
+    font-size: 90%;
+  }
+  .admin ul li {
+    font-size: 80%;
+  }
+  .helpdesk {
+    width: 120px;
+    height: 120px;
+  }
+
+  .notworking {
+    width: 80%;
+    font-size: 80%;
+  }
+  .notworking textarea {
+    width: 80%;
+  }
+
+  .notworking label {
+    font-size: 90%;
+  }
+
+  .notworking label[for="email"] {
+    font-size: 90%;
+  }
+  .lostpassword {
+    width: 80%;
+    font-size: 80%;
+  }
+
+  .lostpassword label {
+    font-size: 90%;
+  }
+
+  .newaccount {
+    width: 80%;
+    font-size: 80%;
+  }
+
+  .newaccount label {
+    font-size: 90%;
+  }
+
+  .logout {
+    font-size: 80%;
+  }
+
+  .message {
+    font-size: 80%;
+  }
+
+  .footer-info {
+    width: 90vw;
+  }
 }
-/* assignment request*/
- @media only screen and  (max-width: 800px) {
-    main {
-        width: 100%;
-        padding: 0;
-        }
-        
-    header {
-        max-width: none;
-        width: 100%;
-        }
-    
-    h1 {
-        font-size: 100%;
-        }
+@media only screen and (max-width: 800px) {
+  main {
+    width: 100%;
+    padding: 0;
+  }
 
-    .container {
-        width: 100%;
-       }
+  header {
+    max-width: none;
+    width: 100%;
+  }
 
-    h2 {
-        width: 100%;
-        /*padding: 10px 10px 10px 30px;*/
-        font-size: 80%;
-        }
+  h1 {
+    font-size: 100%;
+  }
 
-    .lead {
-        width: 88vw;
-        margin:0;
-       /*padding: 10px 40px 10px 40px;*/
-        }
+  .container {
+    width: 100%;
+  }
 
-    h3 {
-        font-size: 80%;
-        }
+  h2 {
+    width: 100%;
+    font-size: 80%;
+  }
 
-    p {
-        font-size: 80%;
-        }
-    /*h2,h3, p {
-            font-size: 80%;
-        }*/
+  .lead {
+    width: 88vw;
+    margin: 0;
+  }
 
-    .exp {
-        font-size: 80%;
-        }
+  h3 {
+    font-size: 80%;
+  }
 
-    .top-logo img{
-        width: auto;
-        }
+  p {
+    font-size: 80%;
+  }
 
-    .cover  {
-        width: 100%; 
-        }
+  .exp {
+    font-size: 80%;
+  }
 
-    .cover img { 
-        width:100;
-        height: 30%;  
-        }
+  .top-logo img {
+    width: auto;
+  }
 
-    .exp {
-        padding: 40px;
-        } 
+  .cover {
+    width: 100%;
+  }
 
+  .cover img {
+    width: 100;
+    height: 30%;
+  }
 
-    table {
-        margin-left:auto;
-        margin-right:auto;
-        padding: 0 0;    
-        }
+  .exp {
+    padding: 40px;
+  }
 
-    #tour-img img{
-        width: 100%;
-        height: 150px;
-        }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0;
+  }
 
-    tr td p {
-        /*padding: 5px;*/
-        font-size: 10px;
-        }
+  #tour-img img {
+    width: 100%;
+    height: 150px;
+  }
 
-    .cta {
-        font-size: 10px;
-        }
+  tr td p {
+    font-size: 10px;
+  }
 
-    footer {
-        width: auto;
-        }
+  .cta {
+    font-size: 10px;
+  }
 
-    .footer-menu {
-        font-size: 80%;
-        }
+  footer {
+    width: auto;
+  }
+
+  .footer-menu {
+    font-size: 80%;
+  }
 }
-/* new media query*/
 @media only screen and (max-width: 550px) {
-    body{
-        width: 100%;
-        }
-        
-    main {
-        width: 100%;
-        padding: 0;
-        }
-    
-    h2 {
-    /* width: 100%;
-       padding: 10px 10px 10px 30px; fix media querie */
-       width: 80vw;
-       padding: 10px -40px 10px 30px;
-       text-indent: 30px;       
-    }
+  body {
+    width: 100%;
+  }
 
-    .lead {
-        width: 80vw;
-        margin:0;
-        padding: 10px 20px 10px 30px;
-        }
+  main {
+    width: 100%;
+    padding: 0;
+  }
 
-    .exp {
-        /*padding: 40px; fix media querie */
-        padding:20px;    
-    }
+  h2 {
+    width: 80vw;
+    padding: 10px -40px 10px 30px;
+    text-indent: 30px;
+  }
 
-    .container {
-        width: 100%; 
-        }
-    
-    #tour-img img{
-        width: 100%;
-        height: 130px;
-        }
+  .lead {
+    width: 80vw;
+    margin: 0;
+    padding: 10px 20px 10px 30px;
+  }
 
-    h3 {
-        font-size: 95%;
-        }
+  .exp {
+    padding: 20px;
+  }
 
-    tr td p {
-        font-size: 80%;
-        width:100%;
-        padding:0;
-        margin:0;
-        /*margin-left:-5px;*/
-        }
-    
-    .cta {
-        font-size: 80%;
-        }
+  .container {
+    width: 100%;
+  }
 
-    .footer-info{
-        width:90vw;
-        }
+  #tour-img img {
+    width: 100%;
+    height: 130px;
+  }
+
+  h3 {
+    font-size: 95%;
+  }
+
+  tr td p {
+    font-size: 80%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .cta {
+    font-size: 80%;
+  }
+
+  .footer-info {
+    width: 90vw;
+  }
 }
 
 @media only screen and (max-width: 415px) {
-    body{
-        width: 100%;
-        }
-        
-    main {
-        width: 100%;
-        padding: 0;
-        }
-    
-    h2 {
-    /* width: 100%;
-       padding: 10px 10px 10px 30px; fix media querie */
-       width: 70vw;
-       padding: 10px -40px 10px 30px;
-       text-indent: 30px;       
-        }
-    .top-logo img{
-        width:10vw;
-        }
-    .lead {
-        width: 80vw;
-        margin:0;
-        padding: 10px 20px 10px 30px;
-        }
+  body {
+    width: 100%;
+  }
 
-    .exp {
-        /*padding: 40px; fix media querie */
-        padding:20px;    
-    }
+  main {
+    width: 100%;
+    padding: 0;
+  }
 
-    .container {
-        width: 100%; 
-        }
-    
-    #tour-img img{
-        width: 100%;
-        height: 100px;
-        }
+  h2 {
+    width: 70vw;
+    padding: 10px -40px 10px 30px;
+    text-indent: 30px;
+  }
+  .top-logo img {
+    width: 10vw;
+  }
+  .lead {
+    width: 80vw;
+    margin: 0;
+    padding: 10px 20px 10px 30px;
+  }
 
-    h3 {
-        font-size: 80%;
-        }
+  .exp {
+    padding: 20px;
+  }
 
-    tr td p {
-        font-size: 70%;
-        width:100%;
-        padding:0;
-        margin:0;
-        /*margin-left:-5px;*/
-        }
-    
-    .cta {
-        font-size: 70%;
-        }
+  .container {
+    width: 100%;
+  }
 
-    .footer-info{
-        width:30vw;
-        font-size: 70%;
-        }
+  #tour-img img {
+    width: 100%;
+    height: 100px;
+  }
 
-    .footer-menu{
-        font-size: 70%;
-       }
+  h3 {
+    font-size: 80%;
+  }
 
-    .footer-menu a {
-        margin-left: 10px;
-        margin-right: 0;
-        }
+  tr td p {
+    font-size: 70%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /*margin-left:-5px;*/
+  }
+
+  .cta {
+    font-size: 70%;
+  }
+
+  .footer-info {
+    width: 30vw;
+    font-size: 70%;
+  }
+
+  .footer-menu {
+    font-size: 70%;
+  }
+
+  .footer-menu a {
+    margin-left: 10px;
+    margin-right: 0;
+  }
 }
-/*
-@media only screen and (max-width: 768px) and (min-width: 320px) {
-    h1 {
-        font-size: 100%;
-    }
-h2,h3, p {
-        font-size: 80%;
-    }
-.exp {
-        font-size: 80%;
-    }
-.top-logo img{
-        width: fit-content;
-    }
-header {
-        max-width: none;
-        width: auto;
-    }
+@media only screen and (max-width: 280px) {
+  h1 {
+    font-size: 70%;
+  }
 
-    .container {
-       
-         width: 100%; 
-         }
+  h2 {
+    font-size: 70%;
+    text-indent: 30px;
+  }
 
-table {
-    margin-left:0px;
-    width: 100vw;;
-    border-spacing: 5px 5px;
-    }
+  .hamburger img {
+    width: 25px;
+  }
 
-#tour-img img{
-    width: 24.9vw;
-    height: 80px;
+  .form {
+    width: 60%;
+  }
+
+  .form select,
+  .form input[type="text"],
+  .form input[type="submit"] {
+    width: 70%;
+    font-size: 60%;
+  }
+
+  .call {
+    font-size: 60%;
+  }
+
+  .helpdesk {
+    width: 100px;
+    height: 100px;
+  }
+
+  .notworking {
+    width: 70%;
+    font-size: 60%;
+  }
+
+  .notworking textarea {
+    width: 80%;
+  }
+
+  .lostpassword {
+    width: 70%;
+    font-size: 60%;
+  }
+
+  .lostpassword label {
+    font-size: 60%;
+  }
+
+  .newaccount {
+    width: 70%;
+    font-size: 60%;
+  }
+  .newaccount label {
+    font-size: 60%;
+  }
+
+  .logout {
+    font-size: 60%;
+  }
+
+  .top-logo img {
+    width: 5vw;
+  }
+
+  .footer-info {
+    font-size: 40%;
+  }
+
+  .footer-menu {
+    font-size: 40%;
+  }
+
+  .footer-menu a {
+    margin-left: 2px;
+    margin-right: 2px;
+    align-items: center;
+  }
 }
-tr td p {
-    padding: 5px;
-    font-size: 10px;
-}
-
-
-.cta {
-font-size: 10px;
-}
-footer {
-    display: flex;
-        width: auto;
-    }
-.footer-menu {
-        font-size: auto;
-}
-.footer-menu ul{
-        display: flex;
-        margin-top: 10px;
-        margin-bottom: 20px;
-}
-
-table {
-        width: 50%;
-        padding: 10px 10px;
-    }
-
-table tr th td {
-            width: auto;
-        font-size: 80%;
-    }
-}*/

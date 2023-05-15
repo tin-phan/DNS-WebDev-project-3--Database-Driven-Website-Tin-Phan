@@ -1,0 +1,26 @@
+.message {
+  text-align: justify;
+  font-size: 14px;
+  margin: 20px 30px;
+  height: 80.1vh;
+}
+
+.logout {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+.logout button {
+  padding: 5px 5px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout button:hover {
+  background-color: #2457cf;
+  color: #ffffff;
+}

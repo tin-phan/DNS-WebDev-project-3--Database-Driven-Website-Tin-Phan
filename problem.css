@@ -1,0 +1,40 @@
+.problem {
+  height: 87.8vh;
+}
+ul a:link {
+  text-decoration: none;
+  color: #0000ff;
+}
+ul a:visited {
+  text-decoration: none;
+  color: #e53935;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px 0 10px 10px;
+}
+
+ul li a {
+  padding-left: 20px;
+}
+
+.logout {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+.logout button {
+  padding: 5px 5px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout button:hover {
+  background-color: #2457cf;
+  color: #ffffff;
+}

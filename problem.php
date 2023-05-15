@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,26 +15,17 @@
 </head>
 <body>
     <?php include('header.php'); ?>
-    <!--
-        <div class="logout">   
-            <a href="logout.php">Log out</a>
-        </div>
-
-    -->
-    <div class="logout">
-		<a href="logout.php"><button>Log out</button></a>
+     <div class="logout">
+		<a href="log-out.php"><button>Log out</button></a>
 	</div>
+	<div class ="problem">
 	<?php
-		// Retrieve the role value from the form submission
 		$role = $_POST['role'];
 		
-		// Display a greeting with the user's role
-		echo "<h1>Hello $role.</h1>";
+		echo "<h2>Hello $role.</h2>";
 		
-		// Display the "How can we help?" message
-		echo "<h2>How can we help?</h2>";
+		echo "<h3>How can we help?</h3>";
 		
-		// Display the appropriate options based on the user's role
 		if ($role == "Admin") {
 			echo "<ul>";
 			echo "<li><a href='new-account.php'>Create new account</a></li>";
@@ -48,6 +43,8 @@
 			echo "</ul>";
 		}
 	?>
+	</div>
+	
     <?php include('footer.php'); ?>
 </body>
 </html>

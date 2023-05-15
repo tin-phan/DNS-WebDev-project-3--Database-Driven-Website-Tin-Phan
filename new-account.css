@@ -1,0 +1,55 @@
+.newaccount {
+  max-width: 600px;
+  margin: 30px;
+  height: 77.9vh;
+}
+
+input .newaccount[type="email"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  max-width: 500px;
+}
+
+.newaccount input[type="submit"] {
+  background-color: #2457cf;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newaccount input[type="submit"]:hover {
+  background-color: #444;
+}
+
+.newaccount label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: inline;
+  text-align: left;
+}
+
+.logout {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+.logout button {
+  padding: 5px 5px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout button:hover {
+  background-color: #2457cf;
+  color: #ffffff;
+}

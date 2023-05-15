@@ -1,3 +1,7 @@
+<?php
+	session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,8 @@
 </head>
 <body>
     <?php include('header.php'); ?>
-    <?php include('body.php'); ?> <!-- to check sumit form, please visit admin page admin.php -->
+    <?php include('body.php'); ?> 
+    <?php include('hot-adventures.php'); ?>
     <?php include('footer.php'); ?>
 </body>
 </html>

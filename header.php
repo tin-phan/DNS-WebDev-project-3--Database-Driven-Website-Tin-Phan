@@ -22,7 +22,7 @@
  </header>
  <nav class="sub-menu">
     <a href="/">Home</a>
-    <a href="book.php">Book Tour</a>
+    <a href="all-adventures.php">All Adventures</a>
     <a href="admin.php">Admin Login</a>
     <a href="contact.php">Contact</a>
 </nav>

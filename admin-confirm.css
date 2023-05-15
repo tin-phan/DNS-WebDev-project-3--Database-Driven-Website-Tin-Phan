@@ -1,0 +1,42 @@
+a:link .discover {
+  text-decoration: none;
+  color: #0000ff;
+}
+
+a:visited .discover {
+  text-decoration: none;
+  color: #e53935;
+}
+
+a.discover-link {
+  color: #000000;
+  font-size: 16px;
+  margin-left: 30px;
+}
+.discover {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.msg {
+  margin: 30px 0px 30px 0px;
+}
+
+.logout {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+.logout button {
+  padding: 5px 5px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout button:hover {
+  background-color: #2457cf;
+  color: #ffffff;
+}
